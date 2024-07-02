@@ -1,0 +1,988 @@
+
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+
+
+
+
+
+
+
+
+background:
+.exemplo {
+    height: 200px;
+    background-color: red;
+    background-image:url("../img/back.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background:gray url("../img/back.jpg") no-repeat center;/ atalho/
+}
+
+body {
+    background-color:white;
+}
+
+Tippos de boradas
+h1 {
+    color: #13a3a8;
+    border: 1px solid black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 1px dotted black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 1px dashed black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 2px double black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 20px groove black; /Efeito 3d
+}
+
+h1 {
+    color: #13a3a8;
+    border: 2px ridge black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 10px inset black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 10px outset black;
+}
+
+h1 {
+    color: #13a3a8;
+    border: 10px hidden black;/Não aparece
+}
+
+h1 {
+    color: #13a3a8;
+    border-top: 5px solid black;
+    border-left: 5px solid blue;
+    border-right:5px solid green;
+    border-bottom:5px solid black;
+    border-radius:50px;
+    text-align: center;
+    background:black;
+
+
+}
+
+margem:
+
+h1 {
+    color: #13a3a8;
+    border-top: 1px solid yellow;
+    border-left: 1px solid blue;
+    border-right:1px solid green;
+    border-bottom:1px solid black;
+    border-radius:50px;
+    text-align: center;
+    background:white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 10px 50px 10px 50px;(topo, direito, embaixo, esquerdo);
+
+
+}
+padding:
+
+h1 {
+    color: #13a3a8;
+    border-top: 1px solid yellow;
+    border-left: 1px solid blue;
+    border-right:1px solid green;
+    border-bottom:1px solid black;
+    border-radius:50px;
+    text-align: center;
+    background:white;
+    margin: 10px 50px 10px 50px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-top: 1px;(com apenas um parâmetro todos os paddins ficam iguais)
+
+}
+.botao {
+    margin: 10px 50px 20px 50px;
+    background:green;
+    color: white;
+    padding:5px;
+    border: 1px solid black;
+    border-radius:50px;
+    text-decoration: none;
+}
+.botao:hover {
+    background: yellow;
+}
+.t {
+    width:3000px;
+    height:300px;
+    background:blue;
+    max-width: 800px;
+
+}
+
+p {
+    color:red;
+    margin-bottom: 10px;
+}
+textos:
+
+p {
+    color:black;
+    text-align:center;
+   
+    direction:rtl;
+    unicode-bidi:bidi-override;
+   
+   text-decoration:overline;
+
+text-decoration:line-through;
+
+text-decoration:underline;
+
+text-transform:uppercase;//maiúsculas;
+
+text-transform:lowercase;//minusculas
+
+text-transform:capitalize//primeira letra sempre maiúscula.
+
+text-indent:50px;// efeito de parágrado
+
+letter-spacing:5px;//espaçamento entre letras. pode ser negativi tbm
+
+line-height:1.8;//espaçamento entre linhas, em decimal.
+
+word-spacing:15px;// espço entre palavras.
+}
+fontes:
+
+p {
+    color:black;
+    text-align:center;
+    
+    font-family:'segoe UI';
+    
+    font-family:arial;
+    
+    font-family:'Times New Roman'
+    
+    font-size:20px;
+    
+    font-family: "Roboto", sans-serif;
+
+    
+    font-style:italic;
+    
+    font-style:oblique;
+    
+    font-weight:bold;//negrito
+    
+    font-weight:500;
+
+
+}
+
+a.botao1 {
+    background:darkcyan;
+    color:red;
+    padding:10px;
+    text-decoration:none;
+    border:4px solid greenyellow;
+    border-radius:5px;
+
+}
+a.botao1:hover {
+    background:rgb(120, 241, 241);
+    padding:12px;
+    border:4px solid rgb(61, 100, 3);
+
+
+}
+a.botao2 {
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+    
+}
+
+a.botao2:hover {
+    text-decoration: none underline;
+    padding: 8px;
+    background: blue;
+    color: white;
+    
+}
+a.botao3 {
+    color: black;
+    text-decoration: none;
+}
+a.botao3:hover {
+    color:red;
+    border-bottom: 3px solid black;
+}
+a.botao4 {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+a.botao4:hover {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+a.botao5 {
+    cursor: help;
+}
+//display.
+//do tipo bloclo: por padrão, as div e h1 ate h6, p, footer, header, section
+// display inline// o tamanho dela vai ocupar apenas a linha: a, span, imagens.
+*/
+/*
+.borda {
+    border: solid red;
+}
+
+p {
+    
+    display: inline;
+    
+}
+#h1 {
+    
+    display: none;// oculta do site.
+    
+}
+#h1:hover {
+    display:none;
+}
+
+li {
+    display: inline-block;
+        
+    width:33%;
+    height: 150px;
+    
+    
+    display: inline;//a altura e largura não são alteradas;
+    
+    display: inline-block;// altera a largura e altura;
+    
+}
+.blue{
+    background: blue;
+    display: inline-block;
+        
+    width:33%;
+    height: 150px;
+
+}
+.violet {
+    background: violet;
+    display: inline-block;
+        
+    width:33%;
+    height: 150px;
+}
+.yellow {
+    background: yellow;
+    display: inline-block;
+        
+    width:33%;
+    height: 150px;
+}
+div {
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+}
+
+
+/Max width, deixa o display responsivo/
+.exp1 {
+    width: 800px;
+    border: 1px solid  green;
+
+}
+
+.exp2 {
+    border: 1px solid blue;
+    max-width: 800px;
+
+}
+//position   position: static(o elemento fica fixo);
+//positon relative: o elemento pode se mover para qualquer direção, em relção a sua posição inicial, ingnorando a posição dos demais elementos.
+o z-index( é uma propriedade do position relative que vai do número negativo até 999. Ele determina a posição no elemnto na terceira dimenção.
+//position fixed: o elemento fica fixo na tela, independentemente da rolagem;
+//position absolute: o elemento filho se desloca em relação ao elemento pai, porém, o elemento pai tem que ter um positon diferente do pistion static, se não, não funcionará;
+//position sticky: o elemento acompanha a rolagem do rodapé, porém ela se limita ao espaço do elemento pai.
+// Para deixar uma imgem opaca: opacity: de 0.1 até 1.
+
+
+.container {
+    
+    display: inline-block;
+    background-size: cover;
+
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+   
+}
+img {
+    width: 100%;
+    opacity: 0.5;
+}
+.centro {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.div1 {
+    
+  position: relative;
+  left: 200px;
+display: inline-block;
+ background: yellow;
+ width: 30%;
+ height: 100px;
+ z-index: 1;
+
+}
+.div2 {
+    z-index:2;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    background: rgb(173, 11, 65);
+    width: 30%;
+    height:  100px;
+
+}
+
+.div3 {
+    display: inline-block;
+    background: red;
+    width: 30%;
+    height:  100px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.whats {
+    background: rgb(90, 31, 228);
+    color:black;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    right:0;
+
+}
+//overflow: como o conteúdo de um elemento vai se comporatar em relação ao elemento pai,  quando é especificado a altura;
+por padrão, vem o visible ( mostra o conteúdo, mesmo que ele ultrapasse a área do elemnto pai;
+O hidden, vai ocultar o conteúdo que ultrapassar a área do elemento pai;
+scroll: coloca a barrinha de rolagem na largura e altura do elemento pai;
+auto: só coloca a barrinha de rolagem se realmente houver necessidade;
+Tábem é possível alterar a bara de rolagem do site: ex: body { overflow-y:hidden}: a barra de rolagem vai sumir;
+
+.exemplo {
+    background: blue;
+    color: black;
+    height: 50px;
+    
+    overflow: visible;
+    
+    overflow: hidden;
+    
+    overflow: scroll;
+    
+    overflow: auto;
+}
+//float: faz um elemento flutuar em relação ao o elemnto pai, ou seja, o elemento continua visível, porém não ocupa espaço(
+    left, right, top, bottom). Mas ele se desprende do elemento pai, portanto se determinarmos margin-right: 20px, o elemento filho ficará
+    para fora do lemento pai e aparacerá uma margem de 20px entre ambos. Caso o elemento filho tenha uma aultura maior que o 
+    elemnto pai, podemos usar a propriedade overflow:auto, no elemento pai, para que a sua altura se ajuste com elemento filho.
+    Caso eu decida criar outro elemento filho que não precise contar mais o elemento flutuante, tenho que usar a propriedade (clear:both)
+    Esta propriedade permitirá que o elemento continue depois do elemento flutuante.
+.container {
+    border: 1px solid black;
+    overflow: auto;
+ 
+
+
+
+}
+.container img{
+    width:200px;
+    float: left;
+    margin-right: 20px;
+
+
+}
+
+.h3 {
+    clear:both;
+}
+ul {
+    background: black;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+li a:hover {
+    background: #ccc;
+    color: black;
+}
+#login {
+float: left;
+}
+
+#login a:hover{
+    background: orangered;
+}
+//Opacity: 0.1(10% de opacidade na imagem), (0.2 20%), (0.3 30%) (1 100%) (efeitos em imagens ou botões)
+
+
+#img1:hover {
+    opacity: 0.5;
+}
+
+#img2 {
+    opacity: 0.7;
+}
+#img3 {
+    opacity: 0.3;
+}
+a#botao {
+    padding: 15px;
+    background-color:green;
+    color: white;
+    text-decoration: none;
+}
+a#botao:hover {
+    opacity: 0.5;
+}
+//    list-style-type: none; ( tira o ponto da lista do ul)
+
+//Exemplo de dropdown (quando você clica em um link e a parece uma lista de links)
+ul {
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a, #dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover, #dropdown:hover #dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+    
+ 
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: white;
+}
+//Especificidade: É a prioridade que o css dar para poder  colocar as prioridades. Em questão de arquivo: inline, interno, Externo.
+Em questão de tags: id(#), classe específica(tag.class), classe genérica(.class) e seletor(tag). Mas podemos burlar as prioridades
+usando a regra do important. Ex: h1 {color:green !important;}
+//Efeito de gradiente
+#gradiente {
+    width: 100%;
+    height: 300px;
+    
+    background-image: linear-gradient(blue, red, green);
+    
+    background-image: linear-gradient(to right, blue, red, green);
+
+background-image: linear-gradient(to bottom right, blue, red, green);
+
+background-image: linear-gradient(to top right, blue, red, green);
+//por ângulo:
+
+background-image: linear-gradient(90deg, blue, red, green);
+//Radial
+
+background-image: radial-gradient(red, blue, yellow);
+//Usando porcentagem
+
+background-image: radial-gradient(red 50%, yellow 30%, green);
+//Efeito de sombra: shadow
+}
+
+h1 {
+ 
+    text-shadow: 2px 2px; //Sombra na horizontal e vertical
+
+    text-shadow: 2px 2px red;// sobra com cor
+       
+    text-shadow: 2px 2px 5px red;// O 5px(blur) dar uma suavizada
+   
+}
+//Efeito de sombra em caixa
+  
+  .box {
+    width: 100%;
+    height: 300px;
+    background: gray;
+    
+    box-shadow: 5px 5px;
+ 
+    box-shadow: 50px 5px 15px;// efeito 3D
+  }
+    //efeito padrão de card
+       
+
+       .box {
+        background: white;
+        width: 40%;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+       }
+       //Estilos de texto
+       
+
+       .box {
+        background: white;
+        font: black;
+        width: 40%;
+
+        height: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+       }
+       .reduzido {
+        white-space: nowrap;//Tudo que esiver em uma quebra de linha ficará namesma linha;
+        overflow: hidden;// Vai ocultar a parte que bassou do box;
+        text-overflow: ellipsis;// colocar 3pontos(...) para poder indicar que o texto tem continuação;
+        padding-bottom: 20px;
+       }
+       .reduzido:hover {
+        white-space: normal;// mostra o conteúdo
+       }
+    //Media Queries: responsividade
+    -Smartphones (600px para baixo): 
+    @media only screen and (max-width: 600px) {...}
+
+    -Dispositivos um poco maiores, mas ainda pequenos (pequenos tablets e smartphones + largos, 600px para cima): 
+    @media only screen  and (min-width: 600px) {...}
+
+    -Dispositivos médios (tablets deitados, 768px para cima): 
+    @media only screen  and (min-width: 768px) {...}
+
+    -Dispositivos largos  (laptops/desktops, 992px para cima): 
+    @media only screen and (min-width: 992px) {...}
+
+    -Dispositivos superlargos(telas maiores de laptops, desktop, smartTV, 1200px para cima):
+     @media only screen  and (min-width: 1200px) {...}
+
+
+@media only screen and (max-width: 600px) {
+body{
+    background: blue;
+}
+}
+
+@media only screen  and (min-width: 600px) {
+
+body{
+    background: green;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+body{
+    background: red;
+}
+}
+
+@media only screen  and (min-width: 992px) {
+
+body{
+    background: yellow;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+
+body{
+    background: violet;
+}
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 600px){
+    .exem {
+        background: violet;
+        height: 400px;
+    }
+}
+//flex box (Esta propriedade facilida na hora de determinar o comportamento dos elementos se serão em blocos ou em linha)
+
+.flex-pai {
+    background: blue;
+    display: flex;
+    
+    flex-direction: column;// efeito de blocos;
+    
+    flex-direction: row;// efeito de linha
+
+}
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+//Exeplo usando o @media:
+
+.flex-pai {
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+  
+
+}
+@media only screen and (max-width: 600px){
+.flex-pai {
+    flex-direction: column;
+    border: 1px solid black;
+    background: blue;
+
+}
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+
+
+
+//reverse
+.flex-pai {
+    background: blue;
+    display: flex;
+    
+    flex-direction: row-reverse;// inverte a direção e também a posição dos elementos.
+    
+    flex-direction: column-reverse;//inverte a direção e também a posição dos elementos.
+    border: 1px solid black;
+
+  
+
+}
+
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+//flex-wrap
+.flex-pai {
+    background: blue;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;    
+    
+    flex-wrap: nowrap;// a lista de conteúdos ficam na mesma linha:display (é depinido como padrão);
+    
+    flex-wrap: wrap;// a lista de conteúdos descem para as linhas de baixo, sendo possível visualizar todos os elementos;
+
+flex-flow: row wrap;// permite defifir essas duas propriedades em apenas uma linha;
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+//Aliamento de itens no sendido individuais no sentido  horizontal:
+
+
+.flex-pai {
+    background: blue;
+  display: flex;
+  flex-flow: row wrap;
+  
+  justify-content: flex-start;// Alinhamento padrão (à esqueda)
+
+  justify-content: flex-end;// aliando no final
+    
+    justify-content: center;// aliado no centro
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+
+//Aliamento de  itens individuais  no sendido vertical:
+
+
+.flex-pai {
+    background: blue;
+    height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+    
+  justify-content: center;
+
+  align-items: stretch;//Propriedade padrão que permite que a altura dos elementos filhos ocupem toda a área do elemento pai;
+
+  align-items: center;// fica aliado no centro
+
+    align-items: flex-start;// fica na parte de cima;
+
+        justify-content: space-between;// deixa um espaço uniforme entre os elementos filhos;
+       
+    justify-content: space-around;// deixa um espaço uniforme em volta do elemento;;
+        align-items: flex-end; fica na parte debaixo
+        
+
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+//aliamento do conjunto dos itens;
+
+
+.flex-pai {
+    background: blue;
+    height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  
+  align-content: flex-start;// todos os elementos filhos ficam juntos e alinhados na parte de cima;
+  
+  align-content: flex-end; // Na parte debaixo;
+
+}
+
+//Flex-grow: define o tamanho dos elementos filhos;
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    flex-grow: 1;// Os elementos vão crescer de forma uniforme;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-pai {
+    background: blue;
+    height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+
+}
+//Exemplo das propriedades do flex
+
+body {
+    margin: 0;
+}
+.header {
+    background: green;
+    padding: 20px;
+
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: black;
+
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background: grey;
+    color: black;
+    font-weight: bolder;
+}
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+.corpo {
+    display: flex;
+    flex-flow: row wrap;
+}
+.card {
+    flex: 48%;
+    background: gray;
+    height: 400px;
+    margin: 1%;
+}
+
+
+
+
+
+ul {
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a, #dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover, #dropdown:hover #dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+    
+ 
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: white;
+}
+*/
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.label .ball {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    height: 22px;
+    width: 22px;
+}

@@ -1,0 +1,10 @@
+<FontAwesomeIcon icon={faFaceLaughBeam} />
+<FontAwesomeIcon icon={faFaceGrinStars} /> inveja
+
+<FontAwesomeIcon icon={faFaceFrown} /> medo
+<FontAwesomeIcon icon={faFaceDizzy} />ansiedade
+<FontAwesomeIcon icon={faFaceMehBlank} /> vergonha
+ 
+<FontAwesomeIcon icon={faFaceAngry} /> raiva
+<FontAwesomeIcon icon={faFaceGrinTongueSquint} />nojo
+<FontAwesomeIcon icon={faFaceTired} /> tedio

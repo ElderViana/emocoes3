@@ -1,0 +1,108 @@
+body {
+  background-color: #000;
+  color: #fcfcfc;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.card-filme {
+  /* background-color: #6c6b6b;  */
+  color: white;
+  width: 20%;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.card-filme img{
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 90%;
+  position: relative;
+  text-overflow: clip;
+  
+}
+p {
+
+  width: 100%;
+  height: 100%;
+  display:block;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+.card-personagem{
+  display: flex;
+  width: 75%;
+  height: 100%;
+  box-shadow: 0 2px 4px 0 rgb(46, 149, 184), 0 3px 10px 0 rgb(2, 67, 88);
+  border-radius: 20px;
+}
+
+.section-itens {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap : wrap;
+}
+
+h3{
+  margin: 0;
+  margin-top: 10px;
+  
+}
+
+.sub-title {
+  border-left: rgb(255, 255, 255) solid 4px;
+  padding-left: 80px;
+  margin-left: 500px ;
+}
+
+
+.fundo{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+  filter: blur(5px);
+ 
+
+}
+
+
+
+.titulo-card {
+  display: flex;
+  justify-content: end;
+  position: relative; 
+  height: 100%;
+}
+
+.titulo-card .fa-star {
+  position: absolute;
+  filter: drop-shadow(1px 0px 7px #fff);
+  
+}
+
+
+/**************RESPONSIVIDADE************/
+@media screen and (max-width: 600px) {
+  .card-filme{
+    width: 45%;
+    margin-top: 10px;
+    
+  }
+
+  .section-itens{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card-filme img{
+    height: 80%;
+ 
+  }
+}
